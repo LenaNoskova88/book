@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230724164926">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<img src="img/header-icon/logo.svg" alt="Logo">
+				</div>
+				<div class="header__links">
+					<a href="" class="header__link">
+						<img src="img/header-icon/f-1.svg" alt="Icon">
+					</a>
+					<a href="" class="header__link">
+						<img src="img/header-icon/t-2.svg" alt="Icon">
+					</a>
+					<a href="" class="header__link">
+						<img src="img/header-icon/in-3.svg" alt="Icon">
+					</a>
+				</div>
+				<nav class="header__wrapper">
+					<ul class="header__menu menu-header">
+						<li class="menu-header__item">
+							<a href="" class="menu-header__link">Home</a>
+						</li>
+						<li class="menu-header__item">
+							<a href="" class="menu-header__link">About</a>
+						</li>
+						<li class="menu-header__item">
+							<a href="" class="menu-header__link">Pages</a>
+						</li>
+						<li class="menu-header__item">
+							<a href="" class="menu-header__link">Contact Us</a>
+						</li>
+						<li class="menu-header__item">
+							<a href="" class="menu-header__icon">
+								<img src="img/header-icon/shop-img.svg" alt="Icon">
+							</a>
+						</li>
+						<li class="menu-header__item">
+							<a href="" class="menu-header__button">Order Today</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__actions actions-header">
+					<button type="button" class="icon-menu"><span></span></button>
+				</div>
+			</div>
+			<script>
+				const button = document.querySelector('.menu-header__button');
+
+				button.addEventListener('mouseover', () => {
+					button.style.backgroundColor = '#1B3764';
+					button.style.color = '#FFCA42';
+				});
+
+				button.addEventListener('mouseout', () => {
+					button.style.backgroundColor = '#FFCA42';
+					button.style.color = '#1B3764';
+				});
+			</script>
+		</header>
+		<main class="page">
+			<section class="page__order order-page" data-aos="fade-left" data-aos-duration="1000">
+				<div class="order-page__container">
+					<div class="order-page__text text-order">
+						<div class="text-order__subtitle">
+							<p>Welcome to Pages!!!</p>
+						</div>
+						<h1 class="text-order__title">Your Books From The Best Writer.</h1>
+						<div class="text-order__about">
+							<p>We believe that reading books are essential to a healthy culture. They’re where authors can connect with readers.</p>
+						</div>
+						<div class="text-order__buttons buttons-text">
+							<a href="" class="buttons-text__bc">order today</a>
+							<a href="" class="buttons-text__line">Read Free Demo</a>
+						</div>
+						<div class="text-order__items items-text">
+							<div class="items-text__item">
+								<div class="items-text__title">Pages:</div>
+								<div class="items-text__subtitle">250pages</div>
+							</div>
+							<div class="items-text__item">
+								<div class="items-text__title">Length:</div>
+								<div class="items-text__subtitle">10 Hours</div>
+							</div>
+							<div class="items-text__item">
+								<div class="items-text__title">Rating:</div>
+								<div class="items-text__subtitle">4.5/5 (305 ratings)</div>
+							</div>
+						</div>
+					</div>
+					<div class="order-page__img">
+						<picture><source srcset="img/order-img/image-1.webp" type="image/webp"><img src="img/order-img/image-1.png" alt="Image"></picture>
+					</div>
+				</div>
+			</section>
+			<section class="page__book book-page" data-aos="fade-left" data-aos-duration="1000">
+				<div class="book-page__container">
+					<div class="book-page__text">
+						<h2 class="book-page__title">The Author’s Book</h2>
+					</div>
+					<div class="book-page__wrapper">
+						<div class="book-page__item item-book">
+							<div class="item-book__image">
+								<img src="img/books/atomic.svg" alt="Image">
+							</div>
+							<div class="item-book__text">
+								<div class="item-book__title">
+									Atomic One’s
+								</div>
+								<div class="item-book__price">$ 13.84 USD</div>
+								<div class="item-book__about">
+									<p>As the book contains theoretical content as well as solved questions.</p>
+								</div>
+								<div class="item-book__circle">Printed Book</div>
+								<a href="" class="item-book__button">Order Now</a>
+							</div>
+						</div>
+						<div class="book-page__item item-book">
+							<div class="item-book__image">
+								<img src="img/books/dark.svg" alt="Image">
+							</div>
+							<div class="item-book__text">
+								<div class="item-book__title">
+									The Dark Light
+								</div>
+								<div class="item-book__price">$ 86.11 USD</div>
+								<div class="item-book__about">
+									<p>As the book contains theoretical content as well as solved questions.</p>
+								</div>
+								<div class="item-book__circle">Printed Book</div>
+								<a href="" class="item-book__button">Order Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__author author-page" data-aos="fade-left" data-aos-duration="1000">
+				<div class="author-page__container">
+					<div class="author-page__image">
+						<picture><source srcset="img/author/author-01.webp" type="image/webp"><img src="img/author/author-01.png" alt="Imager"></picture>
+					</div>
+					<div class="author-page__text">
+						<h2 class="author-page__title">About the Author</h2>
+						<div class="author-page__about">
+							<p>We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.</p>
+						</div>
+						<div class="author-page__wrapper wrapper-author">
+							<div class="wrapper-author__item">
+								<div class="wrapper-author__number">
+									02
+								</div>
+								<div class="wrapper-author__text">Books Published</div>
+							</div>
+							<div class="wrapper-author__item">
+								<div class="wrapper-author__number">
+									4.5
+								</div>
+								<div class="wrapper-author__text">User Reviews</div>
+							</div>
+							<div class="wrapper-author__item">
+								<div class="wrapper-author__number">
+									04
+								</div>
+								<div class="wrapper-author__text">Best Seller Awards</div>
+							</div>
+						</div>
+						<div class="author-page__box box-author">
+							<div class="box-author__qr">
+								<img src="img/author/qr-img.svg" alt="Icon">
+							</div>
+							<div class="box-author__text">
+								<div class="box-author__first">John Abraham , Ph.d</div>
+								<div class="box-author__second">Mail:johnabraham@gmail.com</div>
+								<div class="box-author__third">Phone:(+2) 123 545 9000</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__stores stores-page" data-aos="fade-left" data-aos-duration="1000">
+				<div class="stores-page__container">
+					<div class="stores-page__title">
+						<h2>Trusted By The Best</h2>
+					</div>
+					<div class="stores-page__items">
+						<div class="stores-page__item item-store">
+							<div class="item-store__img">
+								<picture><source srcset="img/stores/4-st.webp" type="image/webp"><img src="img/stores/4-st.png" alt="Image"></picture>
+							</div>
+							<div class="item-store__title">Amazen Corp.</div>
+							<div class="item-store__subtitle">They has been helping readers, music lovers, and videophiles find quality material.</div>
+						</div>
+						<div class="stores-page__item item-store">
+							<div class="item-store__img">
+								<picture><source srcset="img/stores/1-st.webp" type="image/webp"><img src="img/stores/1-st.png" alt="Image"></picture>
+							</div>
+							<div class="item-store__title">Megan Books</div>
+							<div class="item-store__subtitle">We help physical bookstores manage their overstock to the book inventory.</div>
+						</div>
+						<div class="stores-page__item item-store">
+							<div class="item-store__img">
+								<picture><source srcset="img/stores/2-st.webp" type="image/webp"><img src="img/stores/2-st.png" alt="Image"></picture>
+							</div>
+							<div class="item-store__title">Megank</div>
+							<div class="item-store__subtitle">Bookstore serving up the full spectrum of Black literature and wine black books.</div>
+						</div>
+						<div class="stores-page__item item-store">
+							<div class="item-store__img">
+								<picture><source srcset="img/stores/3-st.webp" type="image/webp"><img src="img/stores/3-st.png" alt="Image"></picture>
+							</div>
+							<div class="item-store__title">Urban Store</div>
+							<div class="item-store__subtitle">We also carry the latest records, issues of all of your favorite comic books.</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__copy copy-page" data-aos="fade-left" data-aos-duration="1000">
+				<div class="copy-page__container">
+					<div class="copy-page__text copy-text">
+						<h2 class="copy-text__title">
+							Get Book Copy Today!
+						</h2>
+						<div class="copy-text__subtitle">
+							<p>We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers.</p>
+						</div>
+						<a href="" class="copy-text__button">Order Today</a>
+					</div>
+					<div class="copy-page__img">
+						<img src="img/copy/copy-img.svg" alt="Image">
+					</div>
+				</div>
+			</section>
+			<section class="page__learn learn-page" data-aos="fade-left" data-aos-duration="1000">
+				<div class="learn-page__container">
+					<h2 class="learn-page__title">What Will You Learn?</h2>
+					<div class="learn-page__wrapper">
+						<div class="learn-page__box">
+							<div class="learn-page__item">
+								<div class="learn-page__number">01</div>
+								<div class="learn-page__text">
+									<p>Use HDFS & Map Reduce for storing & analyzing data at scale.</p>
+								</div>
+							</div>
+							<div class="learn-page__item">
+								<div class="learn-page__number">02</div>
+								<div class="learn-page__text">
+									<p>Consume streaming data using Spark Streaming, Flink, and Storm.</p>
+								</div>
+							</div>
+							<div class="learn-page__item">
+								<div class="learn-page__number">03</div>
+								<div class="learn-page__text">
+									<p>Choose an appropriate data storage technology for your application</p>
+								</div>
+							</div>
+							<div class="learn-page__item">
+								<div class="learn-page__number">04</div>
+								<div class="learn-page__text">
+									<p>Analyze non-relational data using HBase, Cassandra, and MongoDB.</p>
+								</div>
+							</div>
+						</div>
+						<div class="learn-page__img">
+							<picture><source srcset="img/learn/l-01.webp" type="image/webp"><img src="img/learn/l-01.png" alt="Image"></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__chapter chapter-page" data-aos="fade-left" data-aos-duration="1000">
+				<div class="chapter-page__container">
+					<h2 class="chapter-page__title">
+						Enhance knowledge & Vision
+					</h2>
+					<div class="chapter-page__wrapper chapter-items">
+						<div class="chapter-items__item">
+							<div class="chapter-item__title">Chapter-1 Get Started Intro</div>
+							<div class="chapter-item__subtitle">You can double your knowledge by reading this ever needed book that can last a lifetime.</div>
+							<div class="chapter-item__circle">
+								<div class="chapter-item__text">Pages : <span>106pages</span></div>
+							</div>
+						</div>
+						<div class="chapter-items__item">
+							<div class="chapter-item__title">Chapter-2 The Roman Culture</div>
+							<div class="chapter-item__subtitle">It will help to improve your life career with the perfect and needed knowledge about your life.</div>
+							<div class="chapter-item__circle">
+								<div class="chapter-item__text">Pages : <span>180pages</span></div>
+
+							</div>
+						</div>
+						<div class="chapter-items__item">
+							<div class="chapter-item__title">Chapter-3 How They Servived</div>
+							<div class="chapter-item__subtitle">We wanted to create an easy, convenient way for you to get your books & support.</div>
+							<div class="chapter-item__circle">
+								<div class="chapter-item__text">Pages : <span>250pages</span></div>
+
+							</div>
+						</div>
+						<div class="chapter-items__item">
+							<div class="chapter-item__title">Chapter-4 The End Of Romans</div>
+							<div class="chapter-item__subtitle">Promote your book via Pages shop to support your writing & reading career.</div>
+							<div class="chapter-item__circle">
+								<div class="chapter-item__text">Pages : <span>175pages</span></div>
+
+							</div>
+						</div>
+					</div>
+					<di class="chapter-items__links">
+						<div class="chapter-items__box">
+							<a href="" class="chapter-items__buttons">Start a 15-Days Free Trail</a>
+						</div>
+						<div class="chapter-items__text">
+							Short description about each chapter.<br> <a href="">Have any questions?</a>Contact us
+						</div>
+
+				</div>
+			</section>
+			<section class="page__readers readers-page" data-aos="fade-left" data-aos-duration="1000">
+				<div class="readers-page__container">
+					<div class="readers-page__text text-readers">
+						<h2 class="text-readers__title">
+							Words From Our Readers
+						</h2>
+						<div class="text-readers__about">
+							<p>We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.</p>
+						</div>
+						<div class="text-readers__image">
+							<picture><source srcset="img/readers/IMAGE.webp" type="image/webp"><img src="img/readers/IMAGE.png" alt=""></picture>
+							<p>(4.8/5)</p>
+						</div>
+						<div class="text-readers__ratings">
+							Overall Customer Ratings
+						</div>
+					</div>
+					<div class="readers-page__wrapper">
+						<div class="readers-page__first">
+							<div class="readers-page__item item-readers">
+								<div class="item-readers__image">
+									<img src="img/readers/01-rd.svg" alt="Image">
+									<div class="item-readers__text">
+										<p>James Williams</p>
+										<picture><source srcset="img/readers/04-rd.webp" type="image/webp"><img src="img/readers/04-rd.png" alt="Image"></picture>
+									</div>
+								</div>
+								<div class="item-readers__brackets">“ Great Books Collections ”</div>
+								<div class="item-readers__about">I was searching this book for many years and I was happy that I could find it here.</div>
+							</div>
+							<div class="readers-page__item item-readers">
+								<div class="item-readers__image">
+									<img src="img/readers/02-rd.svg" alt="Image">
+									<div class="item-readers__text">
+										<p>James Williams</p>
+										<picture><source srcset="img/readers/05-rd.webp" type="image/webp"><img src="img/readers/05-rd.png" alt="Image"></picture>
+									</div>
+								</div>
+								<div class="item-readers__brackets">“ Great Books Collections ”</div>
+								<div class="item-readers__about">I was searching this book for many years and I was happy that I could find it here.</div>
+							</div>
+						</div>
+						<div class="readers-page__second">
+							<div class="readers-page__item item-readers">
+								<div class="item-readers__image">
+									<img src="img/readers/03-rd.svg" alt="Image">
+									<div class="item-readers__text">
+										<p>James Williams</p>
+										<picture><source srcset="img/readers/06-rd.webp" type="image/webp"><img src="img/readers/06-rd.png" alt="Image"></picture>
+									</div>
+								</div>
+								<div class="item-readers__brackets">“ Great Books Collections ”</div>
+								<div class="item-readers__about">I was searching this book for many years and I was happy that I could find it here.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__more more-page" data-aos="fade-left" data-aos-duration="1000">
+				<div class="more-page__container">
+					<h2 class="more-page__title">Articles & Resources</h2>
+					<div class="more-page__wrapper">
+						<div class="more-page__item item-more">
+							<div class="item-more__img">
+								<picture><source srcset="img/more/01-more.webp" type="image/webp"><img src="img/more/01-more.png" alt="Image"></picture>
+							</div>
+							<div class="item-more__text">
+								<div class="item-more__title">
+									Significant reading has more info number
+								</div>
+								<div class="item-more__about">
+									Override the digital divide with additional clickthroughs from DevOps for real-time schemas.
+								</div>
+								<div class="item-more__navigation">
+									<a href="" class="item-more__read">Readmore</a>
+									<div class="item-more__date">October 6, 2021</div>
+								</div>
+							</div>
+						</div>
+						<div class="more-page__item item-more">
+							<div class="item-more__img">
+								<picture><source srcset="img/more/02-more.webp" type="image/webp"><img src="img/more/02-more.png" alt="Image"></picture>
+							</div>
+							<div class="item-more__text">
+								<div class="item-more__title">
+									Many variations of pass majority have suffered
+								</div>
+								<div class="item-more__about">
+									Capitalize on low-hanging fruit to identify a ballpark value-added activity to beta test.
+								</div>
+								<div class="item-more__navigation">
+									<a href="" class="item-more__read">Readmore</a>
+									<div class="item-more__date">October 6, 2021</div>
+								</div>
+							</div>
+						</div>
+						<div class="more-page__item item-more">
+							<div class="item-more__img">
+								<picture><source srcset="img/more/03-more.webp" type="image/webp"><img src="img/more/03-more.png" alt="Image"></picture>
+							</div>
+							<div class="item-more__text">
+								<div class="item-more__title">
+									Words which don’t look even slightly believable
+								</div>
+								<div class="item-more__about">
+
+									Podcasting operational change management inside of workflows to establish a framework.
+								</div>
+								<div class="item-more__navigation">
+									<a href="" class="item-more__read">Readmore</a>
+									<div class="item-more__date">October 6, 2021</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__updates updates-page" data-aos="fade-left" data-aos-duration="1000">
+				<div class="updates-page__container">
+					<h2 class="updates-page__title">Get The Best Updates</h2>
+					<div class="updates-page__subtitle">
+						<p>Subscribe with your mail id to know the current update in book edition at your fingertip with in a minute.</p>
+					</div>
+					<div class="updates-page__box">
+						<input type="email" placeholder="Your Email ID..." class="updates-page__input">
+						<button type="submit" class="updates-page__button">Subscribe</button>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__items items-footer">
+					<div class="items-footer__sociality sociality-footer">
+						<div class="sociality-footer__title">
+							<img src="img/header-icon/logo.svg" alt="Icon">
+						</div>
+						<div class="sociality-footer__wrapper">
+							<a href class="sociality-footer__img">
+								<img src="img/footer-icon/icon-footer-01.svg" alt="Icon">
+							</a>
+							<a href class="sociality-footer__img">
+								<img src="img/footer-icon/icon-footer-01.svg" alt="Icon">
+							</a>
+							<a href class="sociality-footer__img">
+								<img src="img/footer-icon/icon-footer-01.svg" alt="Icon">
+							</a>
+							<a href class="sociality-footer__img">
+								<img src="img/footer-icon/icon-footer-01.svg" alt="Icon">
+							</a>
+						</div>
+					</div>
+					<div class="items-footer__explore explore-footer">
+						<div class="explore-footer__title">Explore</div>
+						<nav class="explore-footer__navigation">
+							<ul class="explore-footer__menu">
+								<li class="explore-footer__item">
+									<div class="explore-footer__circle circle-explore">
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+									</div>
+									<a href="" class="explore-footer__link">Home</a>
+								</li>
+								<li class="explore-footer__item">
+									<div class="explore-footer__circle circle-explore">
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+									</div>
+									<a href="" class="explore-footer__link">About</a>
+								</li>
+								<li class="explore-footer__item">
+									<div class="explore-footer__circle circle-explore">
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+									</div>
+									<a href="" class="explore-footer__link">Articles</a>
+								</li>
+								<li class="explore-footer__item">
+									<div class="explore-footer__circle circle-explore">
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+									</div>
+									<a href="" class="explore-footer__link">Our Store</a>
+								</li>
+								<li class="explore-footer__item">
+									<div class="explore-footer__circle circle-explore">
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+									</div>
+									<a href="" class="explore-footer__link">Contact Us</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="items-footer__explore explore-footer">
+						<div class="explore-footer__title">Utility Pages</div>
+						<nav class="explore-footer__navigation">
+							<ul class="explore-footer__menu">
+								<li class="explore-footer__item">
+									<div class="explore-footer__circle circle-explore">
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+									</div>
+									<a href="" class="explore-footer__link">Style Guide</a>
+								</li>
+								<li class="explore-footer__item">
+									<div class="explore-footer__circle circle-explore">
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+									</div>
+									<a href="" class="explore-footer__link">404 Not Found</a>
+								</li>
+								<li class="explore-footer__item">
+									<div class="explore-footer__circle circle-explore">
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+									</div>
+									<a href="" class="explore-footer__link">Password Protected</a>
+								</li>
+								<li class="explore-footer__item">
+									<div class="explore-footer__circle circle-explore">
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+									</div>
+									<a href="" class="explore-footer__link">Licenses</a>
+								</li>
+								<li class="explore-footer__item">
+									<div class="explore-footer__circle circle-explore">
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+										<div class="circle-explore__circle"></div>
+									</div>
+									<a href="" class="explore-footer__link">Changelog</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="items-footer__explore explore-footer">
+						<div class="explore-footer__title">Keep in Touch</div>
+						<nav class="explore-footer__navigation">
+							<ul class="explore-footer__menu menu-pd">
+								<li class="explore-footer__item menu-pd__item">
+									<p class="explore-footer__color">Address :</p>
+									<p class="explore-footer__dim">24A Kingston St, Los Vegas NC 28202, USA.</p>
+								</li>
+								<li class="explore-footer__item menu-pd__item">
+									<p class="explore-footer__color">Mail :</p>
+									<p class="explore-footer__dim">support@pages.com</p>
+								</li>
+								<li class="explore-footer__item menu-pd__item">
+									<p class="explore-footer__color">Phone :</p>
+									<p class="explore-footer__dim">(+22) 123 - 4567 - 900</p>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="footer__webflow">
+					© Drafted by <span>VictorFlow</span> - Powered by <span>Webflow</span>.
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230724164926"></script>
+	<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js?_v=20230724164926"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+
+</html>
